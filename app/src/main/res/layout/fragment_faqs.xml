@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:background="@drawable/custom_textview">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+
+    >
+
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="What are your delivery hours?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/custom_actionbar"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Our delivery hour is from 10:00 AM to 08:00 PM."
+        android:textSize="25sp"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_splash"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="How much time it takes to deliver the order?"
+                  android:textSize="25sp"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_actionbar"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="Generally it takes between 45 minutes to 1 hour time to deliver the order. Due to long distance or heavy traffic, delivery might take few extra minutes."
+                  android:textSize="25sp"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_splash"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="Can I order any location?"
+                  android:textSize="25sp"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_actionbar"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text=" We will deliver to any limited listed area of abc Initially, we will be serving at the main abc area and not to old abc area."
+                  android:textSize="25sp"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_splash"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="I want an invoice for my order?"
+                  android:textSize="25sp"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_actionbar"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="Invoice Copy is sent via email and Text Message."
+                  android:textSize="25sp"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_splash"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="Can I edit my order?"
+                  android:textSize="25sp"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_actionbar"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="Your order can be edited before it reaches the kitchen. You could contact the customer support team via a call to do so. Once an order is placed and the kitchen starts preparing your food, you may not edit its contents."
+                  android:textSize="25sp"
+                  android:textColor="#000000"
+                  android:background="@drawable/custom_splash"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

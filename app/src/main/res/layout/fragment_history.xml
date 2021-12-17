@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:background="#fbecfd"
+                android:layout_height="match_parent"
+>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:layout_alignParentTop="true"
+              android:id="@+id/txtOrderList"
+              android:text="Your previous orders are listed below"
+              android:textColor="#000000"/>
+    <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/txtOrderList"
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerDashboard"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"/>
+
+
+    <RelativeLayout android:id="@+id/progressLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff">
+        <ProgressBar android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/progressBar"
+                     android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

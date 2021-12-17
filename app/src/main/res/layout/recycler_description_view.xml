@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="100dp"
+android:orientation="vertical">
+
+
+    <LinearLayout
+            android:id="@+id/llcontent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:weightSum="6">
+
+
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:id="@+id/txtSerialNumber"
+                  android:layout_height="match_parent"
+                  android:textSize="20sp"
+                  android:text="1" android:padding="5dp"
+
+        />
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+        >
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtResturantDname"
+                      android:text="Name"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:textColor="#000000"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_below="@+id/txtResturantDname"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtPersonDprice"
+                      android:text="Price"
+                      android:textSize="15sp"
+                      android:textColor="#000000"/>
+
+
+        </RelativeLayout>
+        <Button android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAddTOCart"
+        android:layout_weight="2"
+        android:layout_margin="30dp"
+        android:background="#ff211f"
+                android:textColor="@color/colorPrimaryDark"
+        android:text="Add"
+      />
+
+    </LinearLayout>
+</LinearLayout>

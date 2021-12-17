@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        android:id="@+id/MycartToolbar"
+        android:background="@drawable/custom_actionbar"/>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="30dp"
+              android:layout_below="@id/MycartToolbar"
+              android:id="@+id/txtrodering"
+              android:text="Ordering from :"
+              android:textSize="25sp"
+              android:textColor="#000000"
+
+
+    />
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/txtrodering"
+                android:layout_below="@id/MycartToolbar"
+                android:id="@+id/txtResturantName"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+
+
+      />
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/txtrodering"
+            android:layout_width="match_parent"
+            android:id="@+id/newmycartRecycler"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/btnPlaceOrder"
+            android:layout_height="match_parent"
+
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+            android:background="@drawable/custom_actionbar"
+            android:id="@+id/btnPlaceOrder"
+            android:text="Place order"
+            android:textStyle="bold"
+
+    />
+</RelativeLayout>

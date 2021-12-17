@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+
+                android:layout_width="match_parent">
+    <android.support.v7.widget.Toolbar android:layout_width="fill_parent"
+                                       android:layout_height="wrap_content"
+                                       android:layout_alignParentTop="true"
+    android:background="@drawable/custom_actionbar"
+    android:id="@+id/descriptionToolbar"/>
+
+
+
+
+
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/txtChooseFromMenu"
+              android:layout_below="@+id/descriptionToolbar"
+              android:layout_height="wrap_content"
+              android:text="Choose from menu listed below:"
+              android:textSize="25sp"
+              android:textColor="#000000"
+              android:textStyle="bold"/>
+
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerDescription"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/txtChooseFromMenu"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+   />
+
+
+  <!--  <RelativeLayout  android:id="@+id/progressLayout"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="#fff">
+        <ProgressBar android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/progressBar"
+                     android:layout_centerInParent="true"/>
+    </RelativeLayout>
+-->
+
+<RelativeLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:id="@+id/relativeLayoutProceedToCart"
+android:layout_alignParentBottom="true">
+    <Button
+            android:id="@+id/btnProceedToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/custom_actionbar"
+            android:text="Proceed to Cart"/>
+</RelativeLayout>
+
+</RelativeLayout>

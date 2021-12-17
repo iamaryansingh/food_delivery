@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:background="@drawable/custom_textview"
+>
+<ImageView android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:id="@+id/imgsStudent"
+           android:layout_alignParentTop="true"
+           android:layout_centerInParent="true"
+           android:layout_marginTop="40dp"
+           android:src="@drawable/ic_action_person"/>
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/txtDetailsName"
+              android:layout_marginTop="30dp"
+              android:text="Name"
+              android:textSize="25sp"
+              android:textColor="#000000"
+              android:textAlignment="center"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_height="50dp"
+                android:layout_below="@+id/imgsStudent"
+                android:background="@drawable/custom_button"
+                android:padding="8dp"/>
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/txtDetailsPhone"
+              android:layout_marginTop="15dp"
+              android:text="Phone"
+              android:textSize="25sp"
+              android:textColor="#000000"
+              android:textAlignment="center"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_height="50dp"
+              android:layout_below="@+id/txtDetailsName"
+              android:background="@drawable/custom_button"
+              android:padding="8dp"/>
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/txtDetailsMail"
+              android:layout_marginTop="15dp"
+              android:text="Email"
+              android:textSize="25sp"
+              android:textColor="#000000"
+              android:textAlignment="center"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_height="50dp"
+              android:layout_below="@+id/txtDetailsPhone"
+              android:background="@drawable/custom_button"
+              android:padding="8dp"/>
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/txtDetailsAddress"
+              android:layout_marginTop="15dp"
+              android:text="Address"
+              android:textSize="25sp"
+              android:textColor="#000000"
+              android:textAlignment="center"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_height="50dp"
+              android:layout_below="@+id/txtDetailsMail"
+              android:background="@drawable/custom_button"
+              android:padding="8dp"/>
+
+
+
+
+</RelativeLayout>
